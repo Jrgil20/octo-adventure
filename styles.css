@@ -1,10 +1,28 @@
-@import url(/Assets/css/footer.css);
 @import url(/Assets/css/header.css);
+@import url(/Assets/css/Calculator.css);
+@import url(/Assets/css/footer.css);
+
+
 
 /* Basic styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
