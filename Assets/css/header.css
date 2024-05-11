@@ -1,0 +1,18 @@
+header
+{
+    background-color: grey;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    /* sticky para que se quede fijo en la parte superior */
+    top: 0;
+    width: 100%;
+}
+
+.logo
+{
+    display: inline-block;
+    /* para que el logo se quede en la misma linea */
+    color: #fff;
+    font-size: 60px;
+    margin-left: 10px;
+}
